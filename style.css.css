@@ -1,0 +1,47 @@
+body{
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(238, 72, 175, 0.73) 24.9%,
+        rgba(67, 209, 241, 0.9) 54.9%,
+        rgba(237, 65, 129, 0.99) 100.2%
+      );
+    }
+}
+.heading{
+    color :  wheat;
+    margin-top: 0px;
+    width: 100%;
+    padding: 50px;
+    font-style: italic ;
+    font-size: 20px;
+    box-shadow: 5px 5px 38px black;
+}
+
+.heading:hover{
+    color: wheat;
+    
+}
+
+.note{
+    color: black;
+    font-size: 17px;
+    font-style: italic;
+}
+
+canvas{
+border: 5px solid black;
+border-radius: 20px;
+box-shadow: 5px 5px 38px black;
+}
+
+.class_footer{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:hotpink;
+    box-shadow: 5px 5px 38px black;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
